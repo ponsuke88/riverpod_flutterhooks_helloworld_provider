@@ -34,6 +34,7 @@ class MyApp extends HookWidget {
   Widget build(BuildContext context) {
     // ポイント6
     // useProviderを使ってhelloWorldProviderから 'Hello world' を取得する
+    // buildメソッドの中に書くこと
     final String value = useProvider(helloWorldProvider);
 
     return MaterialApp(
