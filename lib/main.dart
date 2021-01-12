@@ -24,11 +24,7 @@ void main() {
 
 // ポイント4
 // 引数を以下のようにしてProviderオブジェクトを
-// 生成しhelloWorldProviderに入れる
-// これによってどのクラスからでも
-// helloWorldProviderを参照することができて
-// helloWorldProviderから'Hello world'という
-// 文字列を取得することができる
+// 生成してhelloWorldProviderに入れる
 final helloWorldProvider = Provider((ref) => 'Hello world');
 
 // ポイント5
